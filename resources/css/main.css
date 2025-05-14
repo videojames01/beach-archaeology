@@ -1,0 +1,163 @@
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.75rem 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #444;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+/*.field{*/
+/*    text-align: center;*/
+/*    align-content: center;*/
+/*}*/
+/* Hamburger button */
+.hamburger {
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    color: rgb(0, 111, 160);
+    padding: 1rem;
+    cursor: pointer;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1100;
+}
+
+/* Sidebar menu */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(0, 135, 203);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    padding-top: 4rem;
+}
+
+nav.active {
+    transform: translateX(0);
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+}
+
+.nav-links li {
+    margin: 1rem 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* Logo */
+.logo {
+    width: 180px;
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 4rem auto 2rem;
+}
+
+/* Buttons block */
+.buttons {
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+}
+
+/* Buttons */
+button {
+    background: rgb(0, 111, 160);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+    background: rgb(0, 90, 130);
+}
+
+/* css for the login page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    background: #fff;
+    padding: 30px;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.loginButton {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.p{
+    text-align: center;
+}
